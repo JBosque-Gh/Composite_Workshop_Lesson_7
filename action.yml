@@ -10,7 +10,7 @@ inputs:
   runs:
 outputs:
   result:
-    value: ${{ steps.<>.outputs.<> }}
+    value: ${{ steps.sum-result.outputs.result }}
 runs:
   using: composite
   steps:
